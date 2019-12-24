@@ -24,7 +24,7 @@
 namespace rtc {
 // TODO(bugs.webrtc.org/9987): Move rtc::Thread to api/ or expose a better
 // type. At the moment, rtc::Thread is not part of api/ so it cannot be
-// included in order to avoid to leak internal types.
+// included in order to avoid to leak internal types..
 class Thread;
 }  // namespace rtc
 
